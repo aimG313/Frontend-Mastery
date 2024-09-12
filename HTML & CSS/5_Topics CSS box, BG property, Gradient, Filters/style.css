@@ -1,0 +1,47 @@
+/* box model */
+/* full box */
+
+*{
+  margin: 0;
+
+}
+.full{
+  /* border-width: 5px;
+  border-style: solid;
+  border-color: red */
+  border: 5px solid red; /*shortcut*/
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 40px;
+  text-align: center;
+}
+
+/* certain box */
+.certain{
+  border-left: 5px solid pink; 
+  border-right: 5px solid green; 
+  border-bottom: 5px solid blue; 
+  border-top: 5px solid yellow; 
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+/* CSS background & gradient & filter  */
+html{
+  color: aliceblue;
+  background-color: rgb(119, 185, 119);
+  border: 5px solid black;
+  background-image:radial-gradient(rgba(0, 0, 255, 0.288),rgba(255, 0, 0, 0.538)), url(https://images.pexels.com/photos/7869562/pexels-photo-7869562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  filter: blur(.5px), brightness(50%);
+}
+
+/* ol{
+  color: blue;
+} */
