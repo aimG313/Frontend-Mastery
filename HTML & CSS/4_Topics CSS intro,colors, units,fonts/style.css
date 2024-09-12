@@ -1,0 +1,105 @@
+/* google font: fonts.google.com */
+/* must place on the top of stylesheet */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Fasthand&family=Handjet:wght@100..900&display=swap');
+
+.line{
+    font-family: 'Roboto', sans-serif;
+}
+
+.Brave{
+  font-family: "Fasthand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: large;
+}
+
+
+
+
+h3{
+  color: brown;
+}
+
+/* css colors */
+
+/* RGB */
+h4{
+  color: rgb(54,54,54);
+}
+
+/* HEX */
+h5{
+  color: #ABCDEF;
+}
+
+/* HSL*/
+h6{
+  color:hsl(13, 95%, 48%);
+}
+
+/* css relative units */
+
+/* % */
+div{
+  text-align: center;
+  height:50%;
+  width: 50%;
+ 
+  background-color: blue;
+}
+
+/* px */
+section{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+
+/* em */
+
+html{
+  font-size: 1.25em;
+}
+
+/* rem */
+section{
+  font-size: 1.25rem;
+}
+
+/* vw & vh */
+article{
+  background-color: teal;
+  text-align: center;
+  width: 50vw;
+  height: 50vh;
+}
+
+/* css typgraphy */
+.man{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.line{
+  line-height: 30px;
+  cursor: copy;
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
