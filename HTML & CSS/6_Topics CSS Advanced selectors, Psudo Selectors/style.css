@@ -1,0 +1,54 @@
+/* class selector */
+.one{
+  background-color:rgb(54, 240, 240);
+}
+
+#two{
+  background-color: rgb(238, 167, 167);
+}
+
+/* everything selector */
+*{
+   margin: 5;
+   padding: 0;
+}
+
+/* everting of a tag */
+
+section *{
+  background-color: aquamarine;
+}
+
+/* div > p{
+  color: rgb(255, 123, 0);
+} */
+
+.dp{
+  color: brown;
+}
+
+.link{
+  color: rgb(0, 255, 0);
+}
+
+/* pseudo selectors */
+
+/* unvisited link */
+.link:link{
+  color: red;
+}
+
+/* visited link */
+.link:visited{
+  color:blue;
+}
+
+/* hover link */
+.link:hover{
+  color: black;
+}
+
+/* active link */
+.link:active{
+  color: blueviolet;
+}
