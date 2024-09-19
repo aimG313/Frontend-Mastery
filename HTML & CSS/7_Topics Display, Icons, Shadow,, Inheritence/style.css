@@ -1,0 +1,19 @@
+div{
+  font-size: large;
+}
+
+.fa-brands{
+  color: blue;
+}
+
+.text_shaow{
+  text-shadow: 2px 2px 5px red;
+}
+
+.box_shadow{
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  box-shadow: 20px 10px 20px black;
+
+}
